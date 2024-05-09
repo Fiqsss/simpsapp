@@ -1,0 +1,98 @@
+
+.produk-wrapper
+{
+    min-height: 100vh;
+    width: 100%;
+}
+
+.produk-wrapper .sidebar
+{
+    background-color:#F42619;
+    width: 20%;
+    min-height: 100vh;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    transition: transform 0.3s ease;
+    z-index: 1000;
+}
+
+
+
+
+.sidebar.hidden {
+    transform: translateX(-160px);
+}
+
+.sidebar .body {
+    padding: 20px;
+}
+
+.sidebar .body a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10px 0;
+    transition: background-color 0.3s ease;
+}
+
+.sidebar .body a:hover {
+    background-color: #555;
+}
+
+.sidebar .header {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sidebar .header img {
+    width: 30px;
+    height: 30px;
+}
+
+.sidebar .header button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+
+.produk-wrapper  .body a.btn {
+    display: block;
+    text-decoration: none;
+    color: white;
+    background-color: transparent;
+    padding: 0;
+    margin: 2px 0;
+    width: 100%;
+}
+
+.produk-wrapper .body a.btn:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 0.5rem 0 0.5rem 0;
+    color: #333;
+}
+
+#upload input.form-control
+{
+    display:none;
+    visibility: none;
+}
+#upload label
+{
+    cursor: pointer;
+    width: 100%;
+}
+#upload .addimg-logo
+{
+    height: 14rem;
+    object-fit: cover;
+}
+
+/* .addimg-logo
+{
+    border: Dashed 1px;
+} */
