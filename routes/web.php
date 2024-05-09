@@ -41,4 +41,3 @@ Route::middleware(['auth'])->group(function () {
 Route::middleware('guest')->get('/', function () {
     return redirect('/login');
 });
-
